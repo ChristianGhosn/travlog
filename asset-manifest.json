@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/travlog/static/css/main.deab8959.css",
+    "main.js": "/travlog/static/js/main.a70e37d6.js",
+    "static/media/collage.png": "/travlog/static/media/collage.2f6b7befddfefe16aaeb.png",
+    "static/media/services.png": "/travlog/static/media/services.8cc2db3825a4ee25da35.png",
+    "static/media/nomad.png": "/travlog/static/media/nomad.b13ffd978bfbeeda184a.png",
+    "static/media/fish.png": "/travlog/static/media/fish.1eabba388d5451f9128d.png",
+    "static/media/beach.png": "/travlog/static/media/beach.5b0f3cdb55fd2ae0500c.png",
+    "static/media/mountain.png": "/travlog/static/media/mountain.c9b5520eecb7b88c5c03.png",
+    "static/media/contour.png": "/travlog/static/media/contour.f2d08a0696f626be51db.png",
+    "static/media/ticket.png": "/travlog/static/media/ticket.9f99a3a1409aa1a45c50.png",
+    "static/media/testimonial.png": "/travlog/static/media/testimonial.b9c43568431e6c4db4bc.png",
+    "static/media/shape.png": "/travlog/static/media/shape.536d52405e8755ec4fe3.png",
+    "static/media/trip-advisor.svg": "/travlog/static/media/trip-advisor.cf480e45fb717deeac1e4a2c4a6e1461.svg",
+    "static/media/booking.svg": "/travlog/static/media/booking.cb2cfe9ab6fab68c674214bc34567c6f.svg",
+    "static/media/expedia.svg": "/travlog/static/media/expedia.9f8450dbbdabcf7430dda04c378a2b9b.svg",
+    "static/media/airbnb.svg": "/travlog/static/media/airbnb.22a346271dd336c373511a250161aa33.svg",
+    "static/media/orbitz.svg": "/travlog/static/media/orbitz.063d84ed0bd4839b9540a5f631275433.svg",
+    "static/media/calendar.svg": "/travlog/static/media/calendar.9379e30abd7a447103250166643137e4.svg",
+    "static/media/discount.svg": "/travlog/static/media/discount.99b2fffd75101073b62fe40aab632e6d.svg",
+    "static/media/bag.svg": "/travlog/static/media/bag.e16c05e390dd7b3011e07439f15ee3d9.svg",
+    "static/media/crosses.svg": "/travlog/static/media/crosses.59e4ae4d893bc50dbcb9a13060e701b5.svg",
+    "static/media/travlog.svg": "/travlog/static/media/travlog.5537851671fa1bde36707063e60b1610.svg",
+    "static/media/ticketLarge.svg": "/travlog/static/media/ticketLarge.4136cefbc4246011b7be47d95ca2f326.svg",
+    "static/media/star.svg": "/travlog/static/media/star.9bde0598d552d7c0ca9429c00f6e782e.svg",
+    "static/media/mail.svg": "/travlog/static/media/mail.737fc0a964f3ffd91d76601d1d37ee23.svg",
+    "static/media/pin.svg": "/travlog/static/media/pin.24821ce40bc016e0112aa2e40773467d.svg",
+    "index.html": "/travlog/index.html",
+    "static/media/play.svg": "/travlog/static/media/play.4052d68b2e7f618132228d57b7ca35c6.svg",
+    "main.deab8959.css.map": "/travlog/static/css/main.deab8959.css.map",
+    "main.a70e37d6.js.map": "/travlog/static/js/main.a70e37d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.deab8959.css",
+    "static/js/main.a70e37d6.js"
+  ]
+}
