@@ -1,0 +1,161 @@
+.footer {
+  padding: 32px 110px;
+  position: relative;
+}
+
+.design_5 {
+  position: absolute;
+  right: 0;
+  bottom: 200px;
+}
+.design_5 img {
+  width: 100px;
+}
+
+.newsletter-design {
+  position: absolute;
+  top: 0;
+  left: 70px;
+}
+
+.footer__newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 32px;
+  background: rgba(250, 205, 73, 0.08);
+  padding: 64px 128px;
+  gap: 32px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.form-input {
+  display: flex;
+  gap: 24px;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--color-white);
+  border-radius: 32px;
+  padding-left: 32px;
+  width: 100%;
+}
+
+.form-input input {
+  border: none;
+  padding: 32px;
+  border-radius: 32px;
+  width: 100%;
+}
+
+.footer__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 32px;
+  margin-top: 32px;
+}
+
+.footer__content-logo {
+  max-width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer-logo {
+  display: flex;
+  gap: 12px;
+}
+
+.footer__content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 25%;
+}
+
+.footer-heading {
+  color: var(--color-black);
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 12px;
+  margin: 18px 0 32px 0;
+}
+
+@media screen and (max-width: 1150px) {
+  .footer {
+    padding: 32px 64px;
+  }
+  .design_5 {
+    bottom: 250px;
+  }
+  .design_5 img {
+    width: 80px;
+  }
+  .newsletter-design {
+    left: 30px;
+  }
+  .form-input {
+    padding-left: 24px;
+    width: 80%;
+  }
+  .footer__newsletter {
+    padding: 64px;
+  }
+  .footer-heading {
+    font-size: 18px;
+  }
+  .newsletter-design img {
+    width: 160px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .footer {
+    padding: 32px;
+  }
+  .design_5 {
+    bottom: 325px;
+  }
+  .design_5 img {
+    width: 60px;
+  }
+  .newsletter-design {
+    left: 10px;
+  }
+  .form {
+    flex-direction: column;
+  }
+  .form-input {
+    padding-left: 24px;
+    width: 100%;
+  }
+  .footer__newsletter {
+    padding: 32px;
+  }
+  .footer__content-logo {
+    max-width: 100%;
+    gap: 12px;
+  }
+  .footer__content-text {
+    max-width: 100%;
+  }
+  .footer-heading {
+    font-size: 14px;
+  }
+
+  .newsletter-design img {
+    width: 120px;
+  }
+}

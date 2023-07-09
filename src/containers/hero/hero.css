@@ -1,0 +1,48 @@
+.text-pink {
+  color: var(--color-pink);
+}
+
+.hero {
+  display: flex;
+  padding: 32px 110px;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.hero__content button:first-child {
+  width: fit-content;
+}
+
+.hero__content__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.hero__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__img img {
+  width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .hero {
+    flex-direction: column;
+    padding: 32px;
+    gap: 24px;
+  }
+  .hero__content {
+    gap: 24px;
+  }
+}

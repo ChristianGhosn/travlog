@@ -1,0 +1,60 @@
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 110px;
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.design_6 {
+  position: absolute;
+  z-index: -100;
+  top: -350px;
+}
+.design_6 img {
+  width: 100vw;
+}
+
+.testimonials__heading {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.testimonials__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.card-counter {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1150px) {
+  .testimonials {
+    padding: 32px;
+  }
+  .design_6 {
+    top: -250px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .design_6 {
+    top: -100px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .testimonials__content {
+    gap: 32px;
+  }
+  .design_6 {
+    top: -50px;
+  }
+}
